@@ -1,0 +1,51 @@
+body{
+	margin:unset;
+	background:rgb(215, 215, 215);
+	font-family: 'Work Sans', sans-serif;
+}
+
+#navbar{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:86px;
+	background:rgb(220, 131, 131);
+	background:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 112px;
+}
+
+#navbar >.left{
+	display:flex;
+	align-items: center;
+	gap:14px;
+}
+
+#navbar >.left >svg{
+	width:38px;
+}
+#navbar >.left h1{
+	margin:unset;
+	font-size: 30px;
+	color: #2947A9;
+	font-weight: 700;
+}
+
+#navbar >.right{
+	display: flex;
+	gap:50px;
+}
+
+#navbar >.right >a{
+	font-size: 18px;
+	color: #14171F;
+	text-decoration: unset;
+}
+
+#navbar >.right >.orange{
+	color:#F9995D;
+	font-weight: 600;
+}
