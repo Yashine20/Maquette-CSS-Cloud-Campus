@@ -131,3 +131,57 @@ body{
 #content >.featuresProjects >.navigation >.btn-next >svg{
 	transform: rotate(180deg);
 }
+
+.container {
+	background:#ffffff;
+	height: 40vw;
+}
+
+.container >h2 {
+	padding-top: 60px;
+	padding-bottom: 50px;
+	color: #292E3D;
+	font-size: 36px;
+	text-align: center;
+	height: 42px;
+	opacity: 0.4;
+	font-family: 'Work Sans';
+	margin: auto;
+}
+
+.container >.box {
+	display: flex;
+	justify-content: center;
+	/*flex-direction: column;*/
+	align-items: flex-start;
+    gap: 66px;
+}
+
+.container >.box >.services {
+	border: 1.4px solid #E0E3EB;
+	border-radius: 4px;
+	width: 292px;
+	height: 197px
+}
+.container >.box >.services >img {
+	padding-top: 21.67px;
+	padding-left: 21.67px;
+}
+.container >.box >.services >h2 {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #3D445C;
+	padding-left: 20px;
+}
+.container >.box >.services >p {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #858EAD;
+	padding: 0px 18px 40px 20px;
+}
