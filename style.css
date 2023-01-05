@@ -134,7 +134,7 @@ body{
 
 .container {
 	background:#ffffff;
-	height: 40vw;
+	height: 30vw;
 }
 
 .container >h2 {
@@ -184,4 +184,84 @@ body{
 	line-height: 19px;
 	color: #858EAD;
 	padding: 0px 18px 40px 20px;
+}
+
+#presentation {
+	background: #ffffff;
+	height: 945px;
+	display: flex;
+	position: relative;
+}
+#presentation >img {
+	height: 669px;
+	width: 902px;
+	padding: 74px 0 202px 114px;
+	margin-left: 253px;
+}
+
+#presentation >.about {
+	background: #2947A9;
+	width: 488px;
+	height: 523px;
+	margin-top: 147px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 1070px;
+}
+#presentation >.about >h2 {
+	color: #ffffff;
+	padding: 50px 289px 0 40px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	font-family: 'Work Sans';
+	margin-top: 0px;margin-bottom: 37px;
+}
+#presentation >.about >p {
+	width: 388px;
+	height: 207px;
+	color: #ffffff;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	padding: 0 60px 0 40px;
+	margin-bottom: 74px;
+}
+#presentation >.about >button {
+	background: #ffffff;
+	width: 219px;
+	height: 53px;
+	border: 2px solid #2947A9;
+	border-radius: 6px;
+	margin: 0 0 60px 40px;
+}
+#presentation >.about >button >p {
+	color: #2947A9;
+	width: 179px;
+	height: 21px;
+	font-family: 'Work Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	margin: 10px 10px 12px 10px;
+}
+
+
+#contact {
+	background: #3D445C;
+	height: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 30px;
+	gap: 2px;
+}
+#contact >.block {
+	background: yellow;
+	height: 155px;
+	width: 280px;
 }
